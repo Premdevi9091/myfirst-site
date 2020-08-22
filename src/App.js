@@ -38,12 +38,13 @@ class App extends React.Component{
         return(
             <div className={styles.container}>
             <img className={styles.image} src={coronaImage} alt="COVID-19"/>
-            <h3>India</h3>
+            <h1>India</h1>
             <India data={india}/> 
             <h3>{country}</h3>
             <Cards data={world} /> 
             <CountryPicker handleCountryChange={this.handleCountryChange}/>
             <Charts data={world} country={country}/>
+            <h4>Made by Premdevi</h4>
             </div>
         )
     }
