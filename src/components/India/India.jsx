@@ -10,7 +10,7 @@ const India =({data:{confirmed,recovered,deaths,lastUpdate}}) => {  // coming fr
     }
     return(
         <div className={styles.container}>
-            <Grid container spacing={5} justify="center">
+            <Grid container spacing={4} justify="center"> 
                 
                 <Grid item component={Card}  xs={12} md={3} className={cx(styles.card,styles.infected)}>
                     <CardContent>
